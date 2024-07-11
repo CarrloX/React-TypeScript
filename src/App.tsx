@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Counter } from "./Componnents/Counter";
 import { Usuario } from "./Componnents/Usuario";
+import { TimerPadre } from "./Componnents/TimerPadre";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 
       <h2>useEffect - useRef</h2>
       <hr />
+      <TimerPadre/>
     </>
   );
 }

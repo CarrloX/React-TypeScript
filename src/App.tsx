@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Counter } from "./Componnents/Counter";
+import { Usuario } from "./Componnents/Usuario";
 
 function App() {
   return (
@@ -8,6 +9,10 @@ function App() {
       <hr />
 
       <Counter/>
+      <Usuario />
+
+      <h2>useEffect - useRef</h2>
+      <hr />
     </>
   );
 }
